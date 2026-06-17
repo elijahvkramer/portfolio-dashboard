@@ -8,7 +8,8 @@
   },
   "accounts": [
     { "id": "individual", "label": "Individual", "number": "Z21966140" },
-    { "id": "roth", "label": "Roth IRA", "number": "243818731" }
+    { "id": "roth", "label": "Roth IRA", "number": "243818731" },
+    { "id": "crypto", "label": "Crypto", "number": "Fidelity Crypto" }
   ],
   "positions": [
     {
@@ -145,6 +146,16 @@
       "shares": 6,
       "avgCost": 393.68,
       "snapshotPrice": 402.27
+    },
+    {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "account": "crypto",
+      "type": "crypto",
+      "fetchSymbol": "BTC-USD",
+      "shares": 0.02064368,
+      "avgCost": null,
+      "snapshotPrice": 65829
     }
   ]
 }
