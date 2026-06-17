@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "owner": "Eli Kramer",
+    "snapshotDate": "2026-06-17",
+    "snapshotTime": "10:25 a.m. ET",
+    "source": "Fidelity Positions export",
+    "note": "snapshotPrice is the last price from the Fidelity export; the dashboard fetches live prices on load and falls back to snapshotPrice if a live quote is unavailable. Cash/money-market positions use a fixed $1 price."
+  },
+  "accounts": [
+    { "id": "individual", "label": "Individual", "number": "Z21966140" },
+    { "id": "roth", "label": "Roth IRA", "number": "243818731" }
+  ],
+  "positions": [
+    {
+      "ticker": "SPAXX",
+      "name": "Fidelity Government Money Market (Cash)",
+      "account": "individual",
+      "type": "cash",
+      "shares": 11168.29,
+      "avgCost": 1,
+      "snapshotPrice": 1
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corp",
+      "account": "individual",
+      "type": "stock",
+      "shares": 15,
+      "avgCost": 46.05,
+      "snapshotPrice": 120.6399
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc",
+      "account": "individual",
+      "type": "stock",
+      "shares": 5,
+      "avgCost": 181.62,
+      "snapshotPrice": 300.25
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "account": "individual",
+      "type": "stock",
+      "shares": 30,
+      "avgCost": 55.77,
+      "snapshotPrice": 207.97
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "account": "individual",
+      "type": "etf",
+      "shares": 16,
+      "avgCost": 214.41,
+      "snapshotPrice": 751.55
+    },
+    {
+      "ticker": "BPTRX",
+      "name": "Baron Partners Fund",
+      "account": "individual",
+      "type": "fund",
+      "shares": 20.751,
+      "avgCost": 240.95,
+      "snapshotPrice": 297.78
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc",
+      "account": "individual",
+      "type": "stock",
+      "shares": 75,
+      "avgCost": 62.14,
+      "snapshotPrice": 77.83
+    },
+    {
+      "ticker": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "account": "individual",
+      "type": "stock",
+      "shares": 5,
+      "avgCost": 199.39,
+      "snapshotPrice": 461.625
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines",
+      "account": "individual",
+      "type": "stock",
+      "shares": 5,
+      "avgCost": 167.55,
+      "snapshotPrice": 265.895
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms Inc Class A",
+      "account": "individual",
+      "type": "stock",
+      "shares": 3,
+      "avgCost": 365.21,
+      "snapshotPrice": 586.09
+    },
+    {
+      "ticker": "SPAXX",
+      "name": "Fidelity Government Money Market (Cash)",
+      "account": "roth",
+      "type": "cash",
+      "shares": 169.29,
+      "avgCost": 1,
+      "snapshotPrice": 1
+    },
+    {
+      "ticker": "BAI",
+      "name": "BlackRock iShares ETF",
+      "account": "roth",
+      "type": "etf",
+      "shares": 100,
+      "avgCost": 45.28,
+      "snapshotPrice": 51.36
+    },
+    {
+      "ticker": "SPY",
+      "name": "SPDR S&P 500 ETF",
+      "account": "roth",
+      "type": "etf",
+      "shares": 25,
+      "avgCost": 681.42,
+      "snapshotPrice": 751.84
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "account": "roth",
+      "type": "stock",
+      "shares": 20,
+      "avgCost": 72.05,
+      "snapshotPrice": 207.8101
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla Inc",
+      "account": "roth",
+      "type": "stock",
+      "shares": 6,
+      "avgCost": 393.68,
+      "snapshotPrice": 402.27
+    }
+  ]
+}
